@@ -1,0 +1,10 @@
+version: '3'
+services:
+  api:
+    image: owolabialiu/api
+    ports:
+      - 7000:7000
+  frontend:
+    build: owolabialiu/frontend
+    ports:
+      - 3000:3000
